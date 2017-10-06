@@ -1,3 +1,36 @@
+.rojo{
+	color: red;
+}
+
+.celeste{
+	color: cyan;
+}
+
+.blanco{
+	color: white;
+}
+
+.f32{
+	font-size: 32px;
+}
+
+.f10{
+	font-size: 10px;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+.googleFont1{
+	font-family: 'Lobster', cursive !important;
+}
+
+
+.blokk{
+	font-family:BLOKKRegular;
+}
+
+
 .row div{
 
 	background-color: #E6E2EB;

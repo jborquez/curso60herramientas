@@ -13,6 +13,9 @@
     <!-- Estilos de los recursos adicionales -->
 
 <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="ionicons/css/ionicons.min.css">
+<link rel="stylesheet" href="blokkfont/blokkfont.css">
+<link rel="stylesheet" href="weather-icons/css/weather-icons.min.css">
 
   </head>
   <body>
@@ -20,15 +23,83 @@
     <div class="container">
 
       <div class="page-header">
-        <h1>Bootstrap</h1>
-        <p class="lead">Descripción del recurso.</p>
+        <h1 class="googleFont1"><i class="fa fa-bookmark-o"></i> Este es el título de la web home</h1>
+        <p class="lead blokk">Descripción del recurso.</p>
+        <p class="blokk f10">Este mensaje esta encriptado con blokkfont... jajajaja</p>
       </div>
 
       <!-- Editar desde aquí  -->
 
-<button type="button" class="btn btn-primary"><i class="fa fa-hdd-o" aria-hidden="true"></i> Guardar</button>
+<button type="button" class="btn btn-primary"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</button>
+
+<button type="button" class="btn btn-success"><i class="fa fa-bandcamp" aria-hidden="true"></i> ALGO</button>
+
+<br><i class="fa fa-camera-retro"></i> fa-camera-retro
+
+<div class="list-group">
+  <a class="list-group-item" href="#"><i class="fa fa-home fa-fw" aria-hidden="true"></i>&nbsp; Home</a>
+  <a class="list-group-item" href="#"><i class="fa fa-book fa-fw" aria-hidden="true"></i>&nbsp; Library</a>
+  <a class="list-group-item" href="#"><i class="fa fa-pencil fa-fw" aria-hidden="true"></i>&nbsp; Applications</a>
+  <a class="list-group-item" href="#"><i class="fa fa-cog fa-fw" aria-hidden="true"></i>&nbsp; Settings</a>
+</div>
+
+<br>
+
+<ul class="fa-ul">
+  <li><i class="fa-li fa fa-check-square"></i>List icons</li>
+  <li><i class="fa-li fa fa-check-square"></i>can be used</li>
+  <li><i class="fa-li fa fa-spinner fa-spin"></i>as bullets</li>
+  <li><i class="fa-li fa fa-square"></i>in lists</li>
+</ul>
 
 
+<i class="fa fa-shield"></i> normal<br>
+<i class="fa fa-shield fa-rotate-90"></i> fa-rotate-90<br>
+<i class="fa fa-shield fa-rotate-180"></i> fa-rotate-180<br>
+<i class="fa fa-shield fa-rotate-270"></i> fa-rotate-270<br>
+<i class="fa fa-shield fa-flip-horizontal"></i> fa-flip-horizontal<br>
+<i class="fa fa-shield fa-flip-vertical"></i> fa-flip-vertical <br>
+
+
+<span class="fa-stack fa-lg"> <!--  Para definir un icono sobre otro -->
+  <i class="fa fa-circle fa-stack-2x celeste"></i> <!-- Este icono debe ser más grande que el siguiente -->
+  <i class="fa fa-twitter fa-stack-1x blanco"></i><!-- Ya que los iconos son una fuente, puedo agregar el estilo 'color' a rojo de 'lib/estilo.css' -->
+</span>
+
+<br>
+
+
+<button type="button" class="btn btn-primary"> <i class="ion-mic-a"></i> Conversar</button> <!-- Para ionicons la clase es solo el nombre del ícono -->
+
+<br>
+
+<div class="alert alert-danger" role="alert">
+  <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span><!-- Glyphicon son iconos parte de bootstrap  -->
+  <span class="sr-only">Error:</span>
+  Enter a valid email address
+</div>
+
+<br>
+
+<div class="btn-group"> <!-- Permite crear un grupo de botones, en horizontal  -->
+
+  <button type="button" class="btn btn-default" aria-label="Alinear a la izquierda">
+    <i class="fa fa-align-left" aria-hidden="true"></i>
+  </button>
+
+  <button type="button" class="btn btn-default" aria-label="Justificar">
+    <i class="ion-mic-a"></i>
+  </button>
+
+  <button type="button" class="btn btn-default" aria-label="Alinear a la derecha">
+    <i class="glyphicon glyphicon-align-right" aria-hidden="true"></i>
+  </button>
+
+</div>
+
+<br><br>
+
+<i class="wi wi-alien googleFont1"> Zona alienígena</i>
 
 
       <!-- Hasta aquí modificaremos -->
