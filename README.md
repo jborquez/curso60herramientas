@@ -5,5 +5,7 @@
 	3.- http://ionicons.com/
 	4.- https://fonts.google.com/?selection.family=Lobster#ChoosePlace:select
 	5.- http://www.blokkfont.com/
-	
+	6.- https://realfavicongenerator.net/
+	7.- http://www.iconspedia.com/
+
 
