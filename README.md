@@ -1,5 +1,6 @@
 ## Listado de sitios web utilizados en curso 60+ herramientas de desarrollo web
 
+	0.- https://pixabay.com --> Imágenes
 	1.- https://getbootstrap.com/docs/3.3/components/
 	2.- http://fontawesome.io/
 	3.- http://ionicons.com/
@@ -7,5 +8,3 @@
 	5.- http://www.blokkfont.com/
 	6.- https://realfavicongenerator.net/
 	7.- http://www.iconspedia.com/
-
-
